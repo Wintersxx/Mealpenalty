@@ -4,7 +4,7 @@ import datetime
 """ The File needs to have duplicates removed and prepped for reading"""
 
 
-df = pd.read_excel(r"C:\Users\kyle.anderson\Documents\PACS - Meal Penalty5.17.1.xlsx")
+df = pd.read_excel(r"C:\Users\kyle.anderson\Documents\PACS - Meal Penalty Upload\*.xlsx")
 
 df = df.drop(columns = 'reference (delete column)')
 building_range = df['Company ID']
